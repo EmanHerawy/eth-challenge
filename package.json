@@ -1,0 +1,34 @@
+{
+  "name": "ethreum-challenge",
+  "version": "1.0.0",
+  "description": "Ethereum Challenge for Smart Contract Developer Position",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanHerawy/eth-challenge.git"
+  },
+  "keywords": [
+    "solidity",
+    "blockchain",
+    "smart-contract",
+    "truffle",
+    "openzeppelin"
+  ],
+  "author": "Eman Herawy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmanHerawy/eth-challenge/issues"
+  },
+  "homepage": "https://github.com/EmanHerawy/eth-challenge#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "openzeppelin-solidity": "=2.0.0"
+  },
+  "dependencies": {
+    "pify": "^4.0.1"
+  }
+}
